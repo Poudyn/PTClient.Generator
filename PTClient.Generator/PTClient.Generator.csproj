@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PTClient.Generator</RootNamespace>
+    <AssemblyName>PTClient.Generator</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Function.tmp" />
+    <EmbeddedResource Include="td_api.tl" />
+  </ItemGroup>
+
+</Project>
